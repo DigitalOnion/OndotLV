@@ -4,6 +4,6 @@ import com.outerspace.ondotlv.api.Pixabay;
 
 public interface MainView {
 
-    public void onResponseReceived(Pixabay pixabay);
+    public void onResponseReceived(PixabayListAdapter adapter);
 
 }
